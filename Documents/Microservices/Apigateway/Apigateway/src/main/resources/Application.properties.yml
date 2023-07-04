@@ -1,0 +1,13 @@
+server:
+    port:8084
+    
+spring:
+    application:
+        name:APIGATEWAY
+        
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: localhost
